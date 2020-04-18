@@ -2,12 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class DayInputs extends React.Component {
+
+    mainButton = React.createRef();
+
     static propTypes = {
         updateSetDate: PropTypes.func,
-        dates: PropTypes.object,
+        dates: PropTypes.array,
         updateRate: PropTypes.func,
         updateOutcome: PropTypes.func,
-        updateColor: PropTypes.func
+        updateColor: PropTypes.func,
+        updateDates: PropTypes.func
     }
 
     handleClick = () => {
@@ -15,15 +19,15 @@ class DayInputs extends React.Component {
         const inputValues = [...document.querySelectorAll('input')]
             .map(input => parseInt(input.value));
 
-        // blok zapisu do localStorage
         const values = [...document.querySelectorAll('input')].map(value => value.value);
-        localStorage.setItem("values", JSON.stringify(values));
+        // blok zapisu do localStorage
+        // localStorage.setItem("values", JSON.stringify(values));
 
         // blok do kontroli inputów
         const dates = this.props.dates;
         let newDates = [];
         for(let i=0; i < dates.length; i++) {
-            newDates.push([dates[i], values[i]]);
+            newDates.push([dates[i][0], values[i]]);
         }
         this.props.updateDates(newDates);
         // koniec bloku
@@ -84,7 +88,11 @@ class DayInputs extends React.Component {
                         <input key={date[0]} type="number" value={date[1]} onChange={this.handleChange} placeholder={date[0]}></input>
                     )}
                 </form>
-                <button onClick={this.handleClick}>Oblicz!</button>
+                <button ref={this.mainButton} onFocus={() => {
+                    this.mainButton.current.className = "focus"
+                }} onBlur={() => {
+                    this.mainButton.current.className = ""
+                }} onClick={this.handleClick}>Oblicz!</button>
                 </div>
                 </>
         )
