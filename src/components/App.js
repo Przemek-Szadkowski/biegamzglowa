@@ -51,7 +51,7 @@ class App extends React.Component {
     render() {
         return (
             <>
-            <h2>Czy biegam za dużo?</h2>
+            <h2>biegam za dużo?</h2>
             <Start history={this.props.history} addLastDate={this.addLastDate} lastDate={this.state.lastDate} updateDates={this.updateDates} updateSetDate={this.updateSetDate} isSetDate={this.state.setDate} dates={this.state.dates} updateRate={this.updateRate} isOutcomeReady={this.state.outcomeReady} updateOutcome={this.updateOutcome} rate={this.state.rate} updateColor={this.updateColor} color={this.state.color}/>
             <footer>
                 <a href="mailto:przemoszadkowski@o2.pl">&copy;Przemysław Szadkowski</a>

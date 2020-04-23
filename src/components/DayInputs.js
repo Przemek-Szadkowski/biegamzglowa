@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const text = `
+    Porównując ilość wybieganych przez Ciebie kilometrów w ostatnim tygodniu, do ilości kilometrów z ostatnich 4 tygodni, można obliczyć stosunek określany wskaźnikiem ACR. Ma on 3 zakresy wartości, określających  ryzyko kontuzji przy danym obciążeniu, poniżej 1,2, między 1,2 a 1,5 oraz powyżej 1,5. Zerknij na zapis swoich biegowych aktywności i wpisz do tabeli kilometry przebiegnięte przez Ciebie w ostatnim dniu, zaznaczonym szarym kolorem i w pozostałe dni biegowe poprzedzających go 4 tygodni. A następnie kliknij przycisk "Oblicz!" by poznać swój wskaźnik i dowiedzieć się co oznacza!
+`;
+
 class DayInputs extends React.Component {
 
     mainButton = React.createRef();
@@ -77,10 +81,7 @@ class DayInputs extends React.Component {
             <>
                 <div className="formArea">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                    inventore blanditiis earum optio corporis neque consequatur ab illum
-                    harum atque, doloremque suscipit perspiciatis iste sed id, quasi omnis
-                    vitae exercitationem.
+                    {text}
                 </p>
                 <form>
                     {(this.props.dates).map(date =>

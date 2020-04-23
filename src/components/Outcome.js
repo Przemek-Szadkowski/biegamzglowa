@@ -58,7 +58,7 @@ class Outcome extends React.Component {
                 </div>
                 <div className="desc">
                     <div className="top">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam aliquid necessitatibus. Fuga vel ullam obcaecati dolores dolorem. Et eveniet in dolorem accusamus placeat harum incidunt illum, cumque libero provident.</p>
+                        <p>{text}</p>
                         <p className="motto">Do zobaczenia na biegowych trasach!</p>
                     </div>
                     <div className="bottom">
@@ -81,10 +81,16 @@ class Outcome extends React.Component {
     }
 }
 
-const textGreen = "zzzzzz zzzzz zzzzzzzz zzzz zzzz zzzzzzzzz zzzzzzz zzzzzz zzzzzzzzzzzzzz zzzzzzzzzzzz zzzzzz zzzzzz zzzzzz zzzzzzzzzzz zzzzzzzzzzzz zzzzzzzzz zzzzzzzzzzzzzzzz zzzzzzzzzzzz zzzzzzzzzz zzzzzz zzzzzzzz zzzzzzz zzzzzzzz zzzzzzzzzzzzzzzzz zzzzzzzzzzzzzz zzzzzz";
- 
-const textYellow = "yyyyyyyyyyyyyyyyy yyyyyyyyyyyyyy yyyyyyyyyyyyyyyyyy yyyyyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyyyyyyyyy yyyyyyyyyy yyyyyyyyyyyyyyyyyyyyyyyyyyyyy";
+const text = `
+    Sprawdzaj współczynnik ACR go co kilka tygodni, by kontrolować swoje treningowe obciążenia! Ale pamiętaj, że to tylko sucha liczba, która ma Tobie pomóc w świadomym bieganiu, a nie być jedynym wyznacznikiem! Przede wszystkim obserwuj, nie przeciążaj i myśl - mniej wcale nie oznacza gorzej!
+`;
 
-const textRed = "rrrrrrrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrr rrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrrrrrr";
+const textGreen = `BRAWO! ACR poniżej wartości 1,2 to idealny współczynnik. Ilość Twoich obciążeń treningowych jest optymalna, a ryzyko kontuzji małe! Weź jednak pod uwagę to, że współczynnik ACR nie bierze pod uwagę intensywności treningów, więc jeśli biegasz często, ale bardzo intensywnie, to ryzyko kontuzji i tak rośnie. Dlatego obserwuj swój organizm i świadomie rozkładaj treningowe obciążenia!!!`;
+ 
+const textYellow = `Wartość współczynnika ACR pomiędzy 1,2 a 1,5 oznacza ryzyko kontuzji na umiarkowanym poziomie. Nie jest to wartość optymalna (poniżej 1,2), ale nie oznacza też bardzo dużego ryzyka kontuzji (powyżej 1,5). Obciążanie w ten sposób organizmu w dłuższym okresie może więc zwiększyć ryzyko kontuzji. Dlatego pamiętaj, by starać się dążyć do optymalnego rozłożenia obciążeń treningowych (poniżej 1,2). I pamiętaj, że współczynnik ACR nie bierze pod uwagę intensywności treningów, więc jeśli biegasz często, ale bardzo intensywnie, to ryzyko kontuzji rośnie szybciej. Dlatego obserwuj swój organizm i świadomie rozkładaj treningowe obciążenia!!!`;
+
+const textRed = `Wartość współczynnika powyżej 1,5 oznacza bardzo duże ryzyko kontuzji!
+Powinieneś ograniczyć ilość przebieganych kilometrów, tak by zmniejszyć współczynnik do wartości optymalnych - poniżej 1,2. 
+Pamiętaj, że współczynnik ACR nie bierze pod uwagę intensywności treningów, więc jeśli biegasz często, ale bardzo intensywnie, to ryzyko kontuzji rośnie szybciej. Dlatego obserwuj swój organizm i świadomie rozkładaj treningowe obciążenia!!!`;
 
 export default Outcome;

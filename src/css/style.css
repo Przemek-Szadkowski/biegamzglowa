@@ -30,21 +30,22 @@ h2 {
     letter-spacing: 3px;
     text-align: center;
     padding-top: 20px;
-    color: rgb(66, 160, 248);
+    color: #ddd;
     text-shadow: -4px 4px 12px black;
     font-style: oblique;
     align-self: flex-start;
+    letter-spacing: 1.7px;
 }
 
 .area {
-    height: 60vh;
-    width: 60%;
+    height: 65vh;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 20px auto 10px;
-    background-color: rgba(61, 148, 229, 0.5);
+    background-color: rgba(1, 46, 78, 0.6);
     border-radius: 25px;
     color: #ddd;
 }
@@ -52,8 +53,10 @@ h2 {
 .area h1 {
     letter-spacing: 2px;
     font-size: 2.2rem;
-    text-shadow: -2px 2px 8px black;
+    /* text-shadow: -2px 2px 6px white; */
+    text-shadow: -2px 2px 6px black;
     text-align: center;
+    color: #97c7f3;
 }
 
 .area p {
@@ -61,7 +64,8 @@ h2 {
     padding: 15px 30px 10px;
     text-align: center;
     line-height: 1.5rem;
-    text-shadow: 0px 0px 5px black;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px 2px black;
 }
 
 .area button, .formArea button {
@@ -71,14 +75,14 @@ h2 {
     border-radius: 25px;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: #ddd;
+    color: #eee;
     background-image: linear-gradient(0deg, #154470, #67aff3);
     border: 2px solid #112940;
     box-shadow: 0 0 10px 0 #22527F;
     cursor: pointer;
     outline: none;
     transition: .3s;
-    text-shadow: 0px 0px 7px black;
+    text-shadow: -2px 2px 7px black;
 }
 
 .area button:hover, .formArea button:hover {
@@ -92,7 +96,8 @@ h2 {
 
 .area input {
    height: 10%;
-   width: 24%;
+   min-height: 8%;
+   width: 25%;
    margin: 20px 0;
    color: rgb(23, 75, 124);
    font-size: 1.2rem;
@@ -113,14 +118,14 @@ h2 {
 }
 
 .formArea {
-    height: 60vh;
-    width: 60%;
+    height: 65vh;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     margin: 20px auto 10px;
-    background-color: rgba(61, 148, 229, 0.5);
+    background-color: rgba(1, 46, 78, 0.6);
     border-radius: 25px;
     color: #ddd;
 }
@@ -130,7 +135,8 @@ h2 {
     padding: 10px 20px 0;
     text-align: center;
     line-height: 1.5rem;
-    text-shadow: 0px 0px 5px black;
+    letter-spacing: .7px;
+    text-shadow: -1px 1px 2px black;
 }
 
 .formArea form {
@@ -152,14 +158,14 @@ h2 {
 }
 
 .outcome {
-    height: 60vh;
-    width: 60%;
+    height: 65vh;
+    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin: 20px auto 10px;
-    background-color: rgba(61, 148, 229, 0.5);
+    background-color: rgba(61, 148, 229, 0.6);
     border-radius: 25px;
     color: #ddd;
 }
@@ -169,7 +175,6 @@ h2 {
     padding: 10px 20px 0;
     text-align: center;
     line-height: 1.5rem;
-    text-shadow: 0px 0px 5px black;
 }
 
 .outcome .color  {
@@ -185,18 +190,28 @@ h2 {
 
 
 .outcome .color p {
-    color: #42A0F8;
-    text-shadow: 2px 2px 5px black;
-    font-size: 3rem;
-    padding: 20px;
-    font-style: oblique;
+    color: black;
+    /* text-shadow: -2px 2px 4px black; */
+    font-size: 2.5rem;
+    padding: 10px;
+    /* font-style: oblique; */
+    letter-spacing: .9px;
 }
 
 .outcome .color .outcomeText {
     color: #ddd;
-    font-size: 1rem;
-    padding: 10px 20px 0;
+    font-size: .9rem;
+    padding: 10px 10px 0;
+    line-height: 1.5;
     text-align: center;
+    letter-spacing: 1.4px;
+}
+.outcome .color.yellow .outcomeText, .outcome .color.green .outcomeText, .outcome .color.red .outcomeText {
+    color: black;
+    /* text-shadow: 1px 1px 2px white; */
+}
+.outcome .color.green .outcomeText {
+    font-size: .9rem;
 }
 
 .outcome .color.red {
@@ -228,19 +243,23 @@ h2 {
     align-items: center;
     height: 65%;
     width: 100%;
-    background-color: rgba(49, 103, 150, 0.8);
+    background-color: rgba(1, 46, 78, 0.6);
     border-radius: 25px;
 }
 
 .top p {
     padding: 0 10px;
+    text-shadow: -1px 1px 2px black;
+}
+.top p span {
+    color: red;
 }
 
 .top .motto {
     padding: 25px 0 0;
     text-transform: uppercase;
     font-size: 1.5rem;
-    text-shadow: 0px 0px 7px black;
+    text-shadow: -2px 2px 6px black;
 }
 
 .bottom {
@@ -250,16 +269,16 @@ h2 {
     align-items: center;
     height: 30%;
     width: 100%;
-    background-color: rgba(49, 103, 150, 0.8);
+    background-color: rgba(1, 46, 78, 0.6);
     border-radius: 25px;
 }
 
 .bottom button {
     width: 45%;
-    height: 57%;
+    height: 60%;
     border-radius: 25px;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #ddd;
     background-image: linear-gradient(0deg, #154470, #67aff3);
     border: 2px solid #112940;
@@ -267,11 +286,11 @@ h2 {
     cursor: pointer;
     outline: none;
     transition: .3s;
-    text-shadow: 0px 0px 7px black;
+    text-shadow: -2px 2px 5px black;
 }
 
 .bottom button:hover {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     box-shadow: 0 0 10px 0 white;
 }
 
@@ -287,12 +306,12 @@ footer a {
     width: 100%;
     height: auto;
     padding: 2px 0;
-    color: #bdbdbd;
+    color: #bbb;
     text-decoration: none;
     font-size: .8rem;
     font-style: italic;
     text-align: center;
-    background-color: rgba(61, 148, 229, 0.5);
+    background-color: rgba(1, 46, 78, 0.8);
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -300,6 +319,8 @@ footer a {
 @media (max-width: 1370px) {
     .area {
         height: 65vh;
+        background-color: rgba(1, 46, 78, 0.6);
+        border-radius: 25px;
     }
     .area input {
         margin: 10px 10px;
@@ -309,7 +330,7 @@ footer a {
         height: 11%;
     }
     .area p {
-        padding: 40px 20px;
+        padding: 20px 10px;
     }
     .formArea p {
         font-size: 1.5rem;
@@ -327,14 +348,25 @@ footer a {
         height: 78%;
         font-size: .9rem;
     }
+    .outcome button {
+        height: 60%;
+        font-size: 1rem;
+    }
+    .outcome button:hover {
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 1180px) {
+    h2 {
+        padding: 0;
+    }
     .area h1 {
         font-size: 1.8rem;
     }
     .area p {
         font-size: 1rem;
+        padding: 3px;
     }
     .area input {
         margin: 10px 10px;
@@ -355,6 +387,10 @@ footer a {
         font-size: 1.1rem;
         padding: 10px;
     }
+    .outcome .color.red .outcomeText {
+        font-size: .7rem;
+        line-height: 1.4;
+    }
     .top .motto {
         padding: 10px 5px;
         font-size: 1.4rem;
@@ -373,23 +409,30 @@ footer a {
 }
 
 @media (max-width: 1080px) {
+    h2 {
+        font-size: 4.8rem;
+        height: 15vh;
+    }
     .area {
         width: 75%;
     }
     .area h1 {
-        font-size: 2rem;
-        padding-bottom: 30px;
+        font-size: 1.8rem;
+        padding-bottom: 5px;
     }
     .area p {
-        font-size: 1.2rem;
-        padding: 5px;
+        font-size: 1rem;
+        line-height: 1.2;
+        padding: 15px 10px 5px;
+        margin: 10px 0;
     }
     .area input {
         width: 27%;
         height: 8%;
+        margin: 10px;
      }
-     .area button, .formArea button {
-       height: 10%;
+    .area button, .formArea button {
+       height: 9%;
     }
     .formArea {
         height: 65vh;
@@ -398,7 +441,7 @@ footer a {
     .formArea p {
         padding: 10px;
         line-height: 1.6;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .formArea form {
         padding: 20px;
@@ -406,6 +449,7 @@ footer a {
     .formArea form input {
         height: 20%;
         width: 13%;
+        font-size: 1.2rem;
     }
     .formArea button {
         width: 40%;
@@ -420,10 +464,10 @@ footer a {
     }
     .outcome p {
         font-size: 1rem;
-        line-height: 1.4;
+        line-height: 1.2;
     }
     .outcome .color p {
-        font-size: 3.6rem;
+        font-size: 3.2rem;
         padding: 0;
     }
     .outcome .color .outcomeText {
@@ -454,28 +498,45 @@ footer a {
         font-size: 1rem;
     }
 }
+@media (max-width: 970px) {
+    .area p {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+@media (max-width: 850px) {
+    .area p {
+        font-size: .7rem;
+    }
+}
 
 @media (max-width: 800px) {
     h2 {
-        font-size: 4.7rem;
+        height: 10vh;
+        font-size: 4.9rem;
     }
     .area {
         width: 80%;
-        background-color: transparent;
+        padding: 10px;
     }
     .area h1 {
         padding-bottom: 30px;
     }
     .area p {
-        font-size: 1rem;
-        padding-bottom: 20px;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding: 0 10px 20px;
+        text-shadow: -2px 2px 4px black;
     }
     .area input {
         height: 8%;
+        width: 35%;
+        margin: 10px;
     }
     .area button {
         margin-top: 10px;
         height: 9%;
+        width: 36%;
     }
     .formArea {
         height: 65vh;
@@ -485,17 +546,20 @@ footer a {
     .formArea p {
         padding: 5px;
         line-height: 1.6;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        text-shadow: -2px 2px 4px black;
     }
     .formArea form {
         padding: 0;
     }
     .formArea form input {
-        height: 23%;
+        height: 21%;
         width: 13%;
+        font-size: 1.2rem;
     }
     .formArea button {
         width: 40%;
+        margin-top: 20px;
     }
     .formArea button:hover {
         font-size: 2rem;
@@ -508,11 +572,13 @@ footer a {
         font-size: 1.2rem;
     }
     .outcome .color p {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
     .outcome .color .outcomeText {
-        font-size: 1.4rem;
-        padding: 10px 5px 0;
+        font-size: 1rem;
+        line-height: 1.3;
+        letter-spacing: .7px;
+        padding: 15px;
     }
     .top p {
         padding: 10px;
@@ -539,7 +605,12 @@ footer a {
         width: 90%;
         height: 70vh;
     }
-
+    .area h1 {
+        font-size: 1.7rem;
+    }
+    .area p {
+        font-size: .9rem;
+    }
     .area input {
         font-size: .9rem;
     }
@@ -550,7 +621,7 @@ footer a {
         height: 18%;
     }
     .outcome p {
-        font-size: .8rem;
+        font-size: .9rem;
         padding: 10px;
     }
     .outcome .color p {
@@ -558,8 +629,7 @@ footer a {
         padding: 0;
     }
     .outcome .color .outcomeText {
-        font-size: 1rem;
-        padding: 10px 5px 0;
+        font-size: .9rem;
     }
     .top .motto {
         padding: 5px 0 0;
@@ -579,7 +649,11 @@ footer a {
         background-position: 60% 0%;
     }
     h2 {
+        height: 8vh;
         font-size: 3.7rem;
+    }
+    .area p {
+        font-size: .9rem;
     }
     .formArea {
         height: 70vh;
@@ -593,11 +667,22 @@ footer a {
     .area h1 {
         font-size: 1.5rem;
     }
+    .area input {
+        width: 44%;
+    }
     .area button, .formArea button {
         font-size: 1.2rem;
+        width: 45%;
     }
     .area button:hover {
         font-size: 1.4rem;
+    }
+    .formArea p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    .formArea form input {
+        height: 18%;
     }
     .outcome p {
         font-size: .8rem;
@@ -620,6 +705,18 @@ footer a {
     .bottom button:hover {
         font-size: 1rem;
     }
+    .outcome p {
+        font-size: .9rem;
+    }
+    .outcome .color .outcomeText {
+        font-size: .9em;
+        line-height: 1.2;
+        letter-spacing: .6px;
+        padding: 10px;
+    }
+    .outcome .color p {
+        font-size: 2rem;
+    }
     footer a {
         font-size: .8rem;
     }
@@ -627,38 +724,86 @@ footer a {
 
 @media (max-width: 570px) {
     h2 {
-        font-size: 3rem;;
+        font-size: 2.8rem;
+        letter-spacing: 1.7px;
     }
+    .area {
+        padding: 8px 0;
+    }
+
     .area h1 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        padding-bottom: 5px;
+    }
+    .area p {
+        font-size: .9rem;
+        line-height: 1.2;
+        padding: 10px 5px 5px;
+    }
+    .area {
+        justify-content: space-around;
     }
     .area input {
-        height: 6%;
+        height: 8%;
+        width: 44%;
         font-size: .8rem;
+        margin: 5px;
     }
 
     .area button, .formArea button {
-        height: 10%;
+        height: 9%;
+        width: 45%;
         font-size: 1rem;
+        margin: 0;
     }
     .area button:hover, .formArea button:hover {
         font-size: 1.2rem;
     }
+    .formArea p {
+        font-size: .8rem;
+    }
+    .formArea form input {
+        font-size: 1rem;
+        height: 15%;
+    }
+    .outcome p {
+        font-size: .7rem;
+    }
+    .outcome .color .outcomeText {
+        font-size: .7em;
+        line-height: 1.2;
+        letter-spacing: .4px;
+        padding: 10px;
+    }
+    .outcome .color.yellow .outcomeText {
+        font-size: .6em;
+    }
+    .outcome .color.green .outcomeText {
+        font-size: .7rem;
+        line-height: 1.4;
+    }
+    .outcome .color p {
+        font-size: 1.4rem;
+    }
+    .outcome .motto {
+        font-size: 1.1rem;
+    }
+    .outcome button {
+        height: 40%;
+        font-size: .8rem;
+    }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 410px) {
     body {
         background-position: 60% 0%;
     }
     h2 {
         padding-top: 10px;
-        height: 10vh;
-        font-size: 2.3rem;
+        font-size: 2.4rem;
     }
     .area {
         height: 75vh;
-        background-color: transparent;
-        padding-bottom: 40px;
     }
     .formArea {
         height: 75vh;
@@ -669,36 +814,47 @@ footer a {
     .formArea form input {
         height: 15%;
         width: 13%;
+        font-size: .8rem;
     }
     .area h1 {
         font-size: 1.4rem;
         padding-bottom: 5px;
     }
     .area p {
-        font-size: .8rem;
-        line-height: 1.5;
-        padding: 30px 10px 10px;
+        font-size: .7rem;
+        line-height: 1.3;
+        padding: 15px 10px 10px;
     }
     .area input {
-        height: 8%;
+        height: 7%;
         width: 44%;
         margin-bottom: 10px;
     }
     .area button, .formArea button {
         width: 45%;
-        height: 9%;
+        height: 8%;
     }
     .outcome {
         height: 75vh;
     }
     .outcome p {
-        font-size: .7rem;
+        font-size: .6rem;
     }
     .outcome .color p {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     .outcome .color .outcomeText {
+        font-size: .6rem;
+        line-height: 1.1;
+        letter-spacing: .6px;
+        padding: 10px;
+    }
+    .outcome .color.green .outcomeText {
         font-size: .8rem;
+        line-height: 1.1;
+    }
+    .outcome .color.yellow .outcomeText {
+        font-size: .5em;
     }
     .top .motto {
         font-size: 1rem;
@@ -711,41 +867,63 @@ footer a {
     }
     footer {
         height: 3vh;
+        margin-top: 20px;
+    }
+    footer a {
+        font-size: .6rem;
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 359px) {
     h2 {
         height: 7vh;
-        font-size: 1.7rem;
+        font-size: 2rem;
+        padding-top: 0;
     }
     .area {
-        height: 75vh;
+        height: 70vh;
+        padding: 8px 2px;
     }
     .area h1 {
-        font-size: .9rem;
+        font-size: .8rem;
         padding: 0 10px 10px;
     }
     .area p {
         font-size: .6rem;
-        line-height: 1.8;
-        padding: 10px 10px;
+        line-height: 1.4;
+        padding: 10px 5px;
+    }
+    .area input {
+        margin: 5px;
+        font-size: .7rem;
     }
     .area button, .formArea button {
-        height: 10%;
+        height: 8%;
         width: 45%;
+    }
+    .formArea p {
+        font-size: .6rem;
+    }
+    .formArea form input {
+        font-size: .7rem;
     }
     footer a {
         font-size: .5rem;
     }
     .outcome p {
-        font-size: .6rem;
+        font-size: .55rem;
     }
     .outcome .color p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .outcome .color .outcomeText {
+        font-size: .5rem;
+    }
+    .outcome .color.green .outcomeText {
         font-size: .6rem;
+    }
+    .outcome button {
+        height: 40%;
     }
     .top .motto {
         font-size: .9rem;
@@ -760,36 +938,39 @@ footer a {
         height: 15vh;
         padding-top: 0;
         padding-bottom: 10px;
-        font-size: 3.3rem;
+        font-size: 3.8rem;
     }
 
     .area {
         height: 65vh;
         width: 80%;
         margin: 0 auto;
+        background-color: rgba(1, 46, 78, 0.6);
+        border-radius: 25px;
     }
 
     .area h1 {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         padding-bottom: 10px;
     }
 
     .area p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: 0 15px;
         text-align: center;
         line-height: 1.4rem;
+        text-shadow: none;
     }
 
     .area input {
-        margin: 20px 10px;
-        height: 8%;
-        width: 23%;
+        margin: 10px 10px;
+        height: 9%;
+        width: 28%;
         font-size: .9rem;
      }
 
     .area button, .formArea button {
-        height: 12%;
+        height: 10%;
         border-radius: 15px;
         font-size: 1rem;
     }
@@ -804,17 +985,19 @@ footer a {
     .formArea form input {
         height: 21%;
         margin-bottom: 7px;
+        font-size: 1rem;
     }
     .outcome p {
         font-size: 1rem;
         padding: 5px 10px 5px;
     }
     .outcome .color p {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     .outcome .color .outcomeText {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: 10px;
+        line-height: 1.1;;
     }
     .top .motto {
         padding: 10px 5px;
@@ -841,9 +1024,32 @@ footer a {
     }
 }
 
+@media (orientation: landscape) and (max-width: 970px) {
+    .area p {
+        font-size: .9rem;
+    }
+    .formArea p {
+        font-size: .9rem;
+    }
+    .formArea form {
+        padding: 0 5px;
+    }
+    .outcome p {
+        font-size: .9rem;
+    }
+    .outcome .color p {
+        font-size: 1.6rem;
+    }
+    .outcome .color .outcomeText {
+        font-size: .8rem;
+        padding: 5px;
+        line-height: 1.2;
+    }
+}
+
 @media (orientation: landscape) and (max-width: 850px) {
     h2 {
-        font-size: 2.4rem;
+        font-size: 2.6rem;
     }
 
     .area {
@@ -852,18 +1058,19 @@ footer a {
     }
 
     .area h1 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
+        padding-bottom: 5px;
     }
 
     .area p {
         padding: 5px;
-        font-size: .9rem;
-        line-height: 1.1rem;
+        font-size: .7rem;
+        line-height: .9rem;
     }
 
     .area input {
         height: 10%;
-        width: 25%;
+        width: 28%;
         font-size: .8rem;
         margin: 10px;
      }
@@ -876,15 +1083,18 @@ footer a {
     .area button:hover, .formArea button:hover {
         font-size: 1.3rem;
     }
+    .formArea {
+        padding: 10px;
+    }
     .formArea p {
-        padding: 5px;
-        line-height: 1.6;
-        font-size: .8rem;
+        padding: 10px 5px 5px;
+        line-height: 1.4;
+        font-size: .7rem;
         margin-bottom: 10px;
     }
     .formArea form {
         padding: 0;
-        margin: 10px 0;
+        margin: 2px 0 5px;
     }
     .formArea form input {
         height: 17%;
@@ -895,23 +1105,25 @@ footer a {
     }
     .formArea button {
         width: 40%;
-        height: 16%;
-        margin: 0;
+        height: 14%;
+        margin: 0 0 5px;
         font-size: 1.2rem;
     }
     .formArea button:hover {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .outcome p {
         font-size: .7rem;
         padding: 5px 10px 5px;
     }
     .outcome .color p {
-        font-size: 1.9rem;
+        font-size: 1.3rem;
     }
     .outcome .color .outcomeText {
-        font-size: .8rem;
-        padding: 5px;
+        font-size: .6rem;
+    }
+    .outcome .color.green .outcomeText {
+        font-size: .7rem;
     }
     .top .motto {
         padding: 2px 5px;
@@ -933,10 +1145,10 @@ footer a {
     }
 }
 
-@media (orientation: landscape) and (max-width: 750px) {
+@media (orientation: landscape) and (max-width: 750px)  {
     h2 {
         font-size: 2.4rem;
-        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .area {
@@ -945,21 +1157,21 @@ footer a {
     }
 
     .area h1 {
-        font-size: 1.4rem;
-        padding-bottom: 16px;
+        font-size: 1.1rem;
+        padding-bottom: 10px;
     }
 
     .area p {
-        font-size: .8rem;
-        line-height: 1rem;
+        font-size: .7rem;
+        line-height: .9rem;
         
     }
 
     .area input {
         margin: 10px 0 5px;
         font-size: .8rem;
-        height: 12%;
-        width: 25%;
+        height: 11%;
+        width: 35%;
      }
 
     .area button, .formArea button {
@@ -969,6 +1181,13 @@ footer a {
 
     .area button:hover, .formArea button:hover {
         font-size: .9rem;
+    }
+    .formArea {
+        margin: 0 auto;
+    }
+    .formArea p {
+        font-size: .7rem;
+        text-shadow: 2px 2px 4px black;
     }
     .formArea button {
         height: 18%;
@@ -981,11 +1200,14 @@ footer a {
         padding: 5px 10px 5px;
     }
     .outcome .color p {
-        font-size: 1.9rem;
+        font-size: 1.3rem;
     }
     .outcome .color .outcomeText {
-        font-size: .8rem;
+        font-size: .55rem;
         padding: 5px;
+    }
+    .outcome .color.green .outcomeText {
+        font-size: .7rem;
     }
     .top .motto {
         padding: 2px 5px;
@@ -1010,23 +1232,26 @@ footer a {
 @media (orientation: landscape) and (max-width: 650px) {
     h2 {
         font-size: 2rem;
+        padding-top: 0;
     }
 
     .area h1 {
-        font-size: 1.1rem;
-        padding-bottom: 12px;
+        font-size: 1rem;
+        padding: 6px 0;
     }
 
     .area p {
         font-size: .6rem;
         padding: 5px;
+        line-height: 1.2;
     }
 
     .area input {
         margin: 10px 0 5px;
+        width: 26%;
      }
 
-     .area button {
+    .area button {
         height: 13%;
         margin-top: 2px;
         width: 26%;
@@ -1040,22 +1265,39 @@ footer a {
     }
     .formArea p {
         font-size: .6rem;
+        margin-bottom: 0;
+    }
+    .formArea form {
+        margin: 5px 5px 7px;
     }
     .formArea form input {
-        height: 15%;
+        height: 14%;
+        font-size: .7rem;
     }
     .formArea button:hover {
         font-size: 1rem;
     }
     .outcome p {
-        font-size: .65rem;
+        font-size: .55rem;
         padding: 10px 10px 2px;
     }
     .outcome .color p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .outcome .color .outcomeText {
-        font-size: .7rem;
+        font-size: .4rem;
+        padding: 5px;
+        line-height: 1.1;
+    }
+    .outcome .color.yellow .outcomeText {
+        font-size: .5em;
+        padding: 10px;
+    }
+    .outcome .color.red .outcomeText {
+        font-size: .6rem;
+    }
+    .outcome .color.green .outcomeText {
+        font-size: .6rem;
     }
     .top .motto {
         font-size: .7rem;
@@ -1077,38 +1319,45 @@ footer a {
 @media (orientation: landscape) and (max-width: 550px) {
     h2 {
         font-size: 1.7rem;
-        padding: 7px 0;
+        padding: 3px 0;
     }
     .area h1 {
-        font-size: .9rem;
-        padding-bottom: 8px;
+        font-size: .8rem;
+        padding-bottom: 4px;
     }
 
     .area p {
         font-size: .5rem;
         margin-bottom: 0;
+        line-height: 1.5;
     }
     .area input {
         height: 11%;
         width: 25%;
         font-size: .6rem;
+        margin-top: 3px;
     }
     .area button {
-        height: 12%;
+        height: 13%;
     }
     .area button:hover {
         font-size: 1rem;
     }
-
+    .formArea {
+        margin: 0 auto;
+    }
     .formArea p {
-        font-size: .6rem;
+        font-size: .5rem;
+        line-height: 1.4;
+        margin-bottom: 2px;
     }
     .formArea form {
         margin: 0;
     }
     .formArea form input {
-        height: 13%;
-        margin-bottom: 5px;
+        height: 14%;
+        font-size: .6rem;
+        margin-bottom: 2px;
     }
     .formArea button {
         height: 14%;
@@ -1117,15 +1366,18 @@ footer a {
         font-size: 1rem;
     }
     .outcome p {
-        font-size: .6rem;
+        font-size: .5rem;
         padding: 10px;
     }
     .outcome .color p {
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
     .outcome .color .outcomeText {
-        font-size: .6rem;
+        font-size: .5rem;
         padding: 5px;
+    }
+    .outcome .color.yellow .outcomeText {
+        font-size: .5em;
     }
     .top .motto {
         padding: 2px 5px;

@@ -5,6 +5,14 @@ import Outcome from './Outcome';
 
 const text = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem maxime cum alias aperiam! Accusantium perferendis quidem, laudantium sit porro fugiat asperiores maiores reiciendis, autem ea est odit magnam ut! Vel corrupti quod provident qui labore beatae cupiditate! Nemo eaque laboriosam porro laborum facilis, earum quas iusto nihil saepe quibusdam nostrum officia quasi quia eos. Nostrum delectus aspernatur accusamus eius accusantium, quae totam veritatis fugiat itaque quisquam nihil consequatur illum dicta harum alias dolore libero ducimus tenetur. Sint suscipit accusamus ratione eum rerum, cupiditate veritatis. Eum sint, nemo maxime beatae consequuntur possimus.";
 
+const text2 = 
+`
+Czy biegam za dużo? Oczywiście, że nie! Przecież bieganie to całe moje życie! Ja zdecydowanie biegam za mało!!!
+Z pewnością większość z Was podpisze się pod tymi słowami. Ale kiedy w nasze bieganie wkradają się ból i kontuzje, zaczynamy szukać ich przyczyn. I bardzo często te poszukiwania zaczynamy od myśli, czy aby nie przesadziliśmy z objętością treningów i ich równomiernym rozłożeniem.
+Każdy z nas jest inny i bez dokładnej analizy, badań i obserwacji organizmu nie da się w łatwy sposób odpowiedzieć na to pytanie. Ale istnieje prosty, pseudonaukowy wskaźnik, który sprawdza czy nasze obciążenia treningowe i ryzyko kontuzji nie są zbyt duże - współczynnik ACR.
+Za chwilę wyjaśnię jak go interpretować, ale aby go obliczyć, wybierz dzień w którym ostatni raz biegałeś (to ważne, by obliczyć wskaźnik dla Twojego obecnego obciążenia) i kliknij przycisk "Zaczynamy!"
+`
+
 class Start extends React.Component {
 
     startButton = React.createRef();
@@ -57,7 +65,7 @@ class Start extends React.Component {
         return (
             <div className="area">
                 <h1>Współczynnik ACR (Acute to Chronic Ratio)</h1>
-                <p>{text}</p>
+                <p>{text2}</p>
                 <input type="date" name="date" onChange={this.handleDate}/>
                 <button ref={this.startButton} onFocus={() => {
                     this.startButton.current.className = "focus"
