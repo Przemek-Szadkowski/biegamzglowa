@@ -90,7 +90,7 @@ const textGreen = `BRAWO! ACR poniżej wartości 1,2 to idealny współczynnik. 
 const textYellow = `Wartość współczynnika ACR pomiędzy 1,2 a 1,5 oznacza ryzyko kontuzji na umiarkowanym poziomie. Nie jest to wartość optymalna (poniżej 1,2), ale nie oznacza też bardzo dużego ryzyka kontuzji (powyżej 1,5). Obciążanie w ten sposób organizmu w dłuższym okresie może więc zwiększyć ryzyko kontuzji. Dlatego pamiętaj, by starać się dążyć do optymalnego rozłożenia obciążeń treningowych (poniżej 1,2). I pamiętaj, że współczynnik ACR nie bierze pod uwagę intensywności treningów, więc jeśli biegasz często, ale bardzo intensywnie, to ryzyko kontuzji rośnie szybciej. Dlatego obserwuj swój organizm i świadomie rozkładaj treningowe obciążenia!!!`;
 
 const textRed = `Wartość współczynnika powyżej 1,5 oznacza bardzo duże ryzyko kontuzji!
-Powinieneś ograniczyć ilość przebieganych kilometrów, tak by zmniejszyć współczynnik do wartości optymalnych - poniżej 1,2. 
+Powinieneś ograniczyć ilość przebieganych kilometrów lub rozłożyć je bardziej równomiernie w ciągu tygodnia, tak by zmniejszyć współczynnik do wartości optymalnych - poniżej 1,2. 
 Pamiętaj, że współczynnik ACR nie bierze pod uwagę intensywności treningów, więc jeśli biegasz często, ale bardzo intensywnie, to ryzyko kontuzji rośnie szybciej. Dlatego obserwuj swój organizm i świadomie rozkładaj treningowe obciążenia!!!`;
 
 export default Outcome;
