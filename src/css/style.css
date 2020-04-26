@@ -409,6 +409,9 @@ footer a {
 }
 
 @media (max-width: 1080px) {
+    body {
+        background-image: url(./images/landscape-78058_1024.jpg);
+    }
     h2 {
         font-size: 4.8rem;
         height: 15vh;
@@ -511,6 +514,9 @@ footer a {
 }
 
 @media (max-width: 800px) {
+    body {
+        background-image: url(./images/landscape-78058_800.jpg);
+    }
     h2 {
         height: 10vh;
         font-size: 4.9rem;
