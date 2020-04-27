@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/biegamzglowa/static/css/main.1f10e3cc.chunk.css",
+    "main.css": "/biegamzglowa/static/css/main.b10fea0e.chunk.css",
     "main.js": "/biegamzglowa/static/js/main.416f9430.chunk.js",
     "main.js.map": "/biegamzglowa/static/js/main.416f9430.chunk.js.map",
     "runtime-main.js": "/biegamzglowa/static/js/runtime-main.0b9f7248.js",
@@ -8,16 +8,16 @@
     "static/js/2.a9664d8c.chunk.js": "/biegamzglowa/static/js/2.a9664d8c.chunk.js",
     "static/js/2.a9664d8c.chunk.js.map": "/biegamzglowa/static/js/2.a9664d8c.chunk.js.map",
     "index.html": "/biegamzglowa/index.html",
-    "precache-manifest.5fa01697c62414d01ead460156065cfc.js": "/biegamzglowa/precache-manifest.5fa01697c62414d01ead460156065cfc.js",
+    "precache-manifest.a74e2e76fa5c1a3e20a941f776969e5d.js": "/biegamzglowa/precache-manifest.a74e2e76fa5c1a3e20a941f776969e5d.js",
     "service-worker.js": "/biegamzglowa/service-worker.js",
-    "static/css/main.1f10e3cc.chunk.css.map": "/biegamzglowa/static/css/main.1f10e3cc.chunk.css.map",
+    "static/css/main.b10fea0e.chunk.css.map": "/biegamzglowa/static/css/main.b10fea0e.chunk.css.map",
     "static/js/2.a9664d8c.chunk.js.LICENSE.txt": "/biegamzglowa/static/js/2.a9664d8c.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/biegamzglowa/static/media/landscape-78058_800.93f2a150.jpg"
+    "static/media/style.css": "/biegamzglowa/static/media/landscape-78058_1920.fe070d55.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0b9f7248.js",
     "static/js/2.a9664d8c.chunk.js",
-    "static/css/main.1f10e3cc.chunk.css",
+    "static/css/main.b10fea0e.chunk.css",
     "static/js/main.416f9430.chunk.js"
   ]
 }

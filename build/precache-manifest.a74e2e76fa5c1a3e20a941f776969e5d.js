@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3baf0b789853040c1544151c4ec75b8f",
+    "revision": "19062712b7eff4181ff0be1cbcf1fa56",
     "url": "/biegamzglowa/index.html"
   },
   {
-    "revision": "008e1aa5e4d02db9d459",
-    "url": "/biegamzglowa/static/css/main.1f10e3cc.chunk.css"
+    "revision": "890a04dac52e05575b40",
+    "url": "/biegamzglowa/static/css/main.b10fea0e.chunk.css"
   },
   {
     "revision": "daad0fe088bdd0fd97bc",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/biegamzglowa/static/js/2.a9664d8c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "008e1aa5e4d02db9d459",
+    "revision": "890a04dac52e05575b40",
     "url": "/biegamzglowa/static/js/main.416f9430.chunk.js"
   },
   {
@@ -30,9 +30,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe070d5556e8ab6a8308830f8eb1ff4a",
     "url": "/biegamzglowa/static/media/landscape-78058_1920.fe070d55.jpg"
-  },
-  {
-    "revision": "93f2a1506cb9e4f5ff2e41e89d2c7108",
-    "url": "/biegamzglowa/static/media/landscape-78058_800.93f2a150.jpg"
   }
 ]);

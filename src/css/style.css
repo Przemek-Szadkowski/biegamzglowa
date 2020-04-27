@@ -514,9 +514,6 @@ footer a {
 }
 
 @media (max-width: 800px) {
-    body {
-        background-image: url(./images/landscape-78058_800.jpg);
-    }
     h2 {
         height: 10vh;
         font-size: 4.9rem;
@@ -738,7 +735,7 @@ footer a {
     }
 
     .area h1 {
-        font-size: 1.4rem;
+        font-size: 1rem;
         padding-bottom: 5px;
     }
     .area p {
@@ -823,7 +820,7 @@ footer a {
         font-size: .8rem;
     }
     .area h1 {
-        font-size: 1.4rem;
+        font-size: .9rem;
         padding-bottom: 5px;
     }
     .area p {
@@ -861,6 +858,10 @@ footer a {
     }
     .outcome .color.yellow .outcomeText {
         font-size: .5em;
+    }
+    .outcome .color.red .outcomeText {
+        font-size: .7rem;
+        line-height: 1;
     }
     .top .motto {
         font-size: 1rem;
@@ -926,6 +927,9 @@ footer a {
         font-size: .5rem;
     }
     .outcome .color.green .outcomeText {
+        font-size: .6rem;
+    }
+    .outcome .color.red .outcomeText {
         font-size: .6rem;
     }
     .outcome button {
@@ -1005,6 +1009,9 @@ footer a {
         padding: 10px;
         line-height: 1.1;;
     }
+    .outcome .color.red .outcomeText {
+        font-size: 1rem;
+    }
     .top .motto {
         padding: 10px 5px;
         font-size: 1.4rem;
@@ -1050,6 +1057,9 @@ footer a {
         font-size: .8rem;
         padding: 5px;
         line-height: 1.2;
+    }
+    .outcome .color.red .outcomeText {
+        font-size: .7rem;
     }
 }
 
@@ -1131,6 +1141,9 @@ footer a {
     .outcome .color.green .outcomeText {
         font-size: .7rem;
     }
+    .outcome .color.red .outcomeText {
+        font-size: .6rem;
+    }
     .top .motto {
         padding: 2px 5px;
         font-size: 1rem;
@@ -1159,17 +1172,17 @@ footer a {
 
     .area {
         height: 70vh;
-        width: 90%;
+        width: 95%;
     }
 
     .area h1 {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding-bottom: 10px;
     }
 
     .area p {
-        font-size: .7rem;
-        line-height: .9rem;
+        font-size: .6rem;
+        line-height: .8rem;
         
     }
 
@@ -1215,6 +1228,10 @@ footer a {
     .outcome .color.green .outcomeText {
         font-size: .7rem;
     }
+    .outcome .color.red .outcomeText {
+        font-size: .65rem;
+        line-height: 1.2;
+    }
     .top .motto {
         padding: 2px 5px;
         font-size: 1rem;
@@ -1241,20 +1258,26 @@ footer a {
         padding-top: 0;
     }
 
+    .area {
+        justify-content: space-around;
+    }
+
     .area h1 {
-        font-size: 1rem;
+        font-size: .8rem;
         padding: 6px 0;
     }
 
     .area p {
-        font-size: .6rem;
+        font-size: .5rem;
         padding: 5px;
-        line-height: 1.2;
+        line-height: 1.1;
     }
 
     .area input {
-        margin: 10px 0 5px;
+        margin: 10px 0 0;
+        font-size: .7rem;
         width: 26%;
+        height: 12%;
      }
 
     .area button {
@@ -1264,7 +1287,7 @@ footer a {
     }
 
     .area button:hover {
-        font-size: 1.1rem;
+        font-size: .95rem;
     }
     .formArea {
         margin: 5px auto; 
@@ -1288,7 +1311,7 @@ footer a {
         padding: 10px 10px 2px;
     }
     .outcome .color p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .outcome .color .outcomeText {
         font-size: .4rem;
@@ -1328,17 +1351,17 @@ footer a {
         padding: 3px 0;
     }
     .area h1 {
-        font-size: .8rem;
+        font-size: .7rem;
         padding-bottom: 4px;
     }
 
     .area p {
         font-size: .5rem;
         margin-bottom: 0;
-        line-height: 1.5;
+        line-height: 1.2;
     }
     .area input {
-        height: 11%;
+        height: 12%;
         width: 25%;
         font-size: .6rem;
         margin-top: 3px;
@@ -1384,6 +1407,9 @@ footer a {
     }
     .outcome .color.yellow .outcomeText {
         font-size: .5em;
+    }
+    .outcome .color.red .outcomeText {
+        font-size: .5rem;
     }
     .top .motto {
         padding: 2px 5px;
