@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19062712b7eff4181ff0be1cbcf1fa56",
+    "revision": "7c0d016dbd88638e28e029315ed3bfc9",
     "url": "/biegamzglowa/index.html"
   },
   {

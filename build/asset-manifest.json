@@ -8,7 +8,7 @@
     "static/js/2.a9664d8c.chunk.js": "/biegamzglowa/static/js/2.a9664d8c.chunk.js",
     "static/js/2.a9664d8c.chunk.js.map": "/biegamzglowa/static/js/2.a9664d8c.chunk.js.map",
     "index.html": "/biegamzglowa/index.html",
-    "precache-manifest.a74e2e76fa5c1a3e20a941f776969e5d.js": "/biegamzglowa/precache-manifest.a74e2e76fa5c1a3e20a941f776969e5d.js",
+    "precache-manifest.48511d63117a5202949bb859e1e6afc3.js": "/biegamzglowa/precache-manifest.48511d63117a5202949bb859e1e6afc3.js",
     "service-worker.js": "/biegamzglowa/service-worker.js",
     "static/css/main.b10fea0e.chunk.css.map": "/biegamzglowa/static/css/main.b10fea0e.chunk.css.map",
     "static/js/2.a9664d8c.chunk.js.LICENSE.txt": "/biegamzglowa/static/js/2.a9664d8c.chunk.js.LICENSE.txt",
@@ -19,5 +19,12 @@
     "static/js/2.a9664d8c.chunk.js",
     "static/css/main.b10fea0e.chunk.css",
     "static/js/main.416f9430.chunk.js"
+  ],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
   ]
 }
