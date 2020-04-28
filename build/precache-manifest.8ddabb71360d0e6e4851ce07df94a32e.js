@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c0d016dbd88638e28e029315ed3bfc9",
+    "revision": "64bfecdc8043ebc9de89facd24f110ce",
     "url": "/biegamzglowa/index.html"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/biegamzglowa/static/css/main.b10fea0e.chunk.css"
   },
   {
-    "revision": "daad0fe088bdd0fd97bc",
-    "url": "/biegamzglowa/static/js/2.a9664d8c.chunk.js"
+    "revision": "227ea30449c2ca42d501",
+    "url": "/biegamzglowa/static/js/2.7f8e8004.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/biegamzglowa/static/js/2.a9664d8c.chunk.js.LICENSE.txt"
+    "url": "/biegamzglowa/static/js/2.7f8e8004.chunk.js.LICENSE.txt"
   },
   {
     "revision": "890a04dac52e05575b40",
