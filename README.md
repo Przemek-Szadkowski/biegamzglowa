@@ -19,8 +19,10 @@
 ## General info
 
 App calculates Acute-To-Chronic ratio. It helps to stay injure free.
+
 All information about ACR - https://www.runnersworld.com/training/a20841513/acute-to-chronic-training-ratio-calculator/
-It sums up kilometers from 4 weeks and then divide it by last weeke kilometers and calculates and shows result in a proper way.
+
+It sums up kilometers from 4 week and then divide it by last week kilometers and calculates and shows result in a proper way.
 
 ## Screenshots
 
