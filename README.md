@@ -1,6 +1,6 @@
 ![my idea](my_idea.png)
 
-# cars_rental
+# biegamzglowa
 > App for runners which calculate ACR ratio and helps improves running training.
 
 ## Table of contents
