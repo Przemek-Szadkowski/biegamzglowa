@@ -10,6 +10,7 @@ class App extends React.Component {
         dates: [],
         rate: 0,
         color: '',
+        isModal: false
     }
 
     addLastDate = (date) => {
@@ -48,11 +49,17 @@ class App extends React.Component {
         })
     }
 
+    updateIsModal = bool => {
+        this.setState({
+            isModal: bool
+        })
+    }
+
     render() {
         return (
             <>
             <h2>biegam za dużo?</h2>
-            <Start history={this.props.history} addLastDate={this.addLastDate} lastDate={this.state.lastDate} updateDates={this.updateDates} updateSetDate={this.updateSetDate} isSetDate={this.state.setDate} dates={this.state.dates} updateRate={this.updateRate} isOutcomeReady={this.state.outcomeReady} updateOutcome={this.updateOutcome} rate={this.state.rate} updateColor={this.updateColor} color={this.state.color}/>
+            <Start history={this.props.history} addLastDate={this.addLastDate} lastDate={this.state.lastDate} updateDates={this.updateDates} updateSetDate={this.updateSetDate} isSetDate={this.state.setDate} dates={this.state.dates} updateRate={this.updateRate} isOutcomeReady={this.state.outcomeReady} updateOutcome={this.updateOutcome} rate={this.state.rate} updateColor={this.updateColor} color={this.state.color} isModal={this.state.isModal} updateIsModal={this.updateIsModal}/>
             <footer>
                 <a href="mailto:przemoszadkowski@o2.pl">&copy;Przemysław Szadkowski</a>
             </footer>
