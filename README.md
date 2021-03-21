@@ -43,6 +43,9 @@ It sums up kilometers from 4 week and then divide it by last week kilometers and
 
 ## Features
 
+To do:
+* fix up RWD and design on mobile devices
+
 Live demo https://przemek-szadkowski.github.io/biegamzglowa/
 
 ## Status
