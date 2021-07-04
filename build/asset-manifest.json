@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/biegamzglowa/static/css/main.b10fea0e.chunk.css",
-    "main.js": "/biegamzglowa/static/js/main.416f9430.chunk.js",
-    "main.js.map": "/biegamzglowa/static/js/main.416f9430.chunk.js.map",
-    "runtime-main.js": "/biegamzglowa/static/js/runtime-main.0b9f7248.js",
-    "runtime-main.js.map": "/biegamzglowa/static/js/runtime-main.0b9f7248.js.map",
-    "static/js/2.7f8e8004.chunk.js": "/biegamzglowa/static/js/2.7f8e8004.chunk.js",
-    "static/js/2.7f8e8004.chunk.js.map": "/biegamzglowa/static/js/2.7f8e8004.chunk.js.map",
-    "index.html": "/biegamzglowa/index.html",
-    "precache-manifest.8ddabb71360d0e6e4851ce07df94a32e.js": "/biegamzglowa/precache-manifest.8ddabb71360d0e6e4851ce07df94a32e.js",
-    "service-worker.js": "/biegamzglowa/service-worker.js",
-    "static/css/main.b10fea0e.chunk.css.map": "/biegamzglowa/static/css/main.b10fea0e.chunk.css.map",
-    "static/js/2.7f8e8004.chunk.js.LICENSE.txt": "/biegamzglowa/static/js/2.7f8e8004.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/biegamzglowa/static/media/landscape-78058_1920.fe070d55.jpg"
+    "main.css": "/biegam_z_glowa_final/static/css/main.73a7aa1d.chunk.css",
+    "main.js": "/biegam_z_glowa_final/static/js/main.9f83c2aa.chunk.js",
+    "main.js.map": "/biegam_z_glowa_final/static/js/main.9f83c2aa.chunk.js.map",
+    "runtime-main.js": "/biegam_z_glowa_final/static/js/runtime-main.bf951435.js",
+    "runtime-main.js.map": "/biegam_z_glowa_final/static/js/runtime-main.bf951435.js.map",
+    "static/js/2.86ffd691.chunk.js": "/biegam_z_glowa_final/static/js/2.86ffd691.chunk.js",
+    "static/js/2.86ffd691.chunk.js.map": "/biegam_z_glowa_final/static/js/2.86ffd691.chunk.js.map",
+    "index.html": "/biegam_z_glowa_final/index.html",
+    "precache-manifest.d20aedec2fe46a060d93c158b308e96a.js": "/biegam_z_glowa_final/precache-manifest.d20aedec2fe46a060d93c158b308e96a.js",
+    "service-worker.js": "/biegam_z_glowa_final/service-worker.js",
+    "static/css/main.73a7aa1d.chunk.css.map": "/biegam_z_glowa_final/static/css/main.73a7aa1d.chunk.css.map",
+    "static/js/2.86ffd691.chunk.js.LICENSE.txt": "/biegam_z_glowa_final/static/js/2.86ffd691.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/biegam_z_glowa_final/static/media/landscape-78058_1920.fe070d55.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b9f7248.js",
-    "static/js/2.7f8e8004.chunk.js",
-    "static/css/main.b10fea0e.chunk.css",
-    "static/js/main.416f9430.chunk.js"
+    "static/js/runtime-main.bf951435.js",
+    "static/js/2.86ffd691.chunk.js",
+    "static/css/main.73a7aa1d.chunk.css",
+    "static/js/main.9f83c2aa.chunk.js"
   ]
 }
